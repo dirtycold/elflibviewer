@@ -7,5 +7,6 @@
     </qresource>
     <qresource prefix="/i18n">
         <file>translations/i18n_ru.qm</file>
+        <file>translations/i18n_zh.qm</file>
     </qresource>
 </RCC>
