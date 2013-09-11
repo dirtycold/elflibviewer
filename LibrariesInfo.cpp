@@ -83,7 +83,7 @@ QString LibrariesInfo::resolveLibraryPath(const QString &library, const LibSearc
         paths << basePaths64;
     else
         paths << basePaths32;
-    paths << "/lib" << "/usr/lib";
+	paths << "/lib" << "/lib64" << "/usr/lib" << "/usr/lib64";
 
     foreach(QString path, paths) {
         QFileInfo qfi(path + "/" + library);
